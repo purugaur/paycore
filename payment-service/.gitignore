@@ -1,0 +1,34 @@
+# Maven / build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code / Eclipse / STS
+.vscode/
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+bin/
+
+# macOS
+.DS_Store
+
+# Logs and local config
+*.log
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# Local Docker data
+docker-data/
